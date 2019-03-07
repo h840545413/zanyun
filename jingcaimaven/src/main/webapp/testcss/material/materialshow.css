@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	margin: auto auto;
+	text-align: center;
+}
+
+#head-div {
+	text-align: center;
+	height: 40px;
+	width: 354px;
+	background-color: #4F2800;
+	font-size: 18px;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#top-div {
+	text-align: left;
+	height: 28px;
+	width: 344px;
+	font-size: 12px;
+	color: #4b4b4b;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#ss {
+	text-align: left;
+	margin-top: 20px;
+	width: 336px;
+	height: 30px;
+	background-image: url("/sample/images/ss.jpg");
+}
+
+#xl_ul,#dp_ul,#gn_ul {
+	width: 316px;
+	font-size: 12px;
+	float: left;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li {
+	white-space:nowrap;
+	margin-left:4px;
+	margin-right:4px;
+	display:inline;
+	cursor:pointer;
+	float: left;
+	font-size:12px;
+	line-height: 28px;
+	
+}
+
+.ul_div {
+	width: 334px;
+	padding-left: 8px;
+}
+
+#head_div {
+	width: 356px;
+	height: 50px;
+}
+
+
+
+.exist {
+	color: #9a6c35;
+	font-weight: bold;
+}
+
+img {
+	border: 2px solid white;
+}
+
+img:HOVER {
+	border: 2px solid #9a6c35;
+}
+
+#show_div {
+	width: 354px;
+	margin-top: 20px;
+	height: 480px;
+}
+
+.dp_li {
+	float: left;
+	color: #4b4b4b;
+}
+
+#ssinput {
+	margin-top: 1px;
+	margin-left: 5px;
+	width: 270px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 12px;
+	border: 0;
+}
+
+#sss {
+	margin-top: -29px;
+	margin-bottom: 1px;
+	margin-right: 1px; width : 35px;
+	float: right;
+	height: 26px;
+	border: 1px solid white;
+	width: 35px;
+}
+
+#sss:HOVER {
+	border: 1px solid #9a6c35;
+}
+
+.a_div {
+	
+	width: 100px;
+	float: left;
+	height: 155px;
+	margin-left:16px;
+	
+}
+
+.div_a {
+	word-wrap:break-word;
+	text-align: left;
+	width:80px;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.number-button1 {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button1.jpg");
+}
+
+.number-button1:HOVER {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button2.jpg");
+}
+
+.number-button3 {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button3.jpg");
+	color: white;
+}
+
+.button-left {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/left.jpg");
+}
+.button-left:HOVER {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/leftmove.jpg");
+}
+
+.button-right {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/right.jpg");
+}
+.button-right:HOVER{
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/rightmove.jpg");
+}
+#buttom-div
+{text-align:center;}

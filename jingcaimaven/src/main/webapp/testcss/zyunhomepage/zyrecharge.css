@@ -1,0 +1,105 @@
+body {
+	min-width: 1635px;
+	width: expression_r(document.body.clientWidth < 1636 ? "1635px" : "auto");
+	min-height: 974px;
+	height: expression_r(document.body.clienthright < 973 ? "974px" : "auto");
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	font-size: 12%;
+}
+
+.rechargedaohang {
+	width: 100%;
+	height: 50px;
+	color: #999999;
+	font-size: 12px;
+	font-family: MicrosoftYa;
+	line-height: 50px;
+	padding-left:360px;
+}
+.rechargedaohang>a{
+	color: #aaaaaa;
+}
+.rechargedaohang>a:HOVER{
+	cursor: pointer;
+}
+.rechargediv {
+	width: 990px;
+	height: 500px;
+	border: 1px solid #999999;
+	margin: 0 auto 100px auto;
+}
+
+.rechargeleft {
+	height: 100%;
+	width: 200px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+
+.rechargeright {
+	height: 100%;
+	width: 788px;
+	float: left;
+}
+
+.rechargezhcz {
+	width: 140px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: MicrosoftYa;
+	border-bottom: 1px solid #999999;
+}
+
+.rechargeshuoming {
+	width: 140px;
+	height: 421px;
+	color: #999999;
+	font-size: 12px;
+	font-family: MicrosoftYa;
+	margin: 27px auto 0 auto;
+	line-height: 20px;
+}
+
+.rechargejine {
+	margin-top: 102px;
+	width: 589px;
+	height: 40px;
+	margin-left: 200px;
+	font-size: 16px;
+	font-family: MicrosoftYa;
+	color: #666666
+}
+
+.rechargejine>.btn:hover {
+	border: 1px solid #46dcff;
+}
+
+.btn-group>.btn.active {
+	border: 1px solid #46dcff !important;
+}
+
+.btn-group>label {
+	margin-left: 5px !important;
+	margin-right: 3px !important;
+	border-radius: 5px !important;
+	border: 1px solid #aaaaaa !important;
+}
+
+.recharge_btn {
+	background-color: #46dcff;
+	height: 100%;
+	width: 120px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	line-height: 30px;
+}

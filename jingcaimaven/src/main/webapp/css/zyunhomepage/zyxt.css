@@ -1,0 +1,49 @@
+//
+赞云学堂
+.zy {
+	width: 100%;
+	height: 100%;
+}
+
+.zydiv {
+	width: 30%;
+	height: 47%;
+	margin-top: 173px;
+	margin-left: 419px;
+	background-color: black;
+	border-radius: 8px;
+	text-align: center;
+	float: left;
+}
+
+.zyenter {
+	width: 100px;
+	height: 100px;
+	margin-top: 35%;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.zyword1 {
+	width: 100%;
+	height: 30%;
+	color: black;
+	font-size: 48em;
+	font-family: MicrosoftYaHei;
+}
+
+.zyword2 {
+	width: 100%;
+	color: black;
+	font-size: 18em;
+	font-family: MicrosoftYaHei;
+	margin-top: 22px
+}
+
+.zybutton {
+	width: 30%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}

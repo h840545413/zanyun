@@ -1,0 +1,46 @@
+//
+软件下载
+
+.rword1 {
+	width: 100%;
+	height: 50px;
+	margin-top: 221px;
+	text-align: center;
+	color: black;
+	font-family: MicrosoftYaHei;
+	font-size: 40em
+}
+
+.rword2 {
+	width: 100%;
+	height: 150px;
+	margin-top: 47px;
+	text-align: center;
+	line-height: 35px;
+	font-family: MicrosoftYaHei;
+	font-size: 20em
+}
+
+.rbuttondiv {
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	margin-top: 96px;
+}
+
+.rbutton1 {
+	height: 100%;
+	width: 10%;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 5em;
+}
+
+.rbutton2 {
+	height: 100%;
+	width: 10%;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 5em;
+	margin-left: 62px;
+}

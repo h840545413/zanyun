@@ -1,0 +1,357 @@
+body {
+	min-width: 1923px;
+	width: expression_r(document.body.clientWidth < 1924 ? "1924px" : "auto");
+	min-height: 974px;
+	height: expression_r(document.body.clienthright < 973 ? "974px" : "auto");
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	font-size: 10%;
+}
+
+.personal,.account,.record {
+	width: 100%;
+	height: 420px;
+}
+
+.personal_information,.account_information,.record_information {
+	width: 40%;
+	height: 100%;
+	margin: auto;
+	border-bottom: 1px solid #aaaaaa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.personal_information_head {
+	width: 100%;
+	height: 43%;
+	text-align: center;
+}
+
+.personal_information_id {
+	width: 100%;
+	height: 8%;
+	margin-top: 25px;
+	font-size: 12em;
+	font-size: 12em;
+}
+
+.personal_information_id_div {
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-left: 40%;
+	float: left;
+	overflow: hidden
+}
+
+.personal_information_id_update {
+	height: 100%;
+	width: 5%;
+	float: right;
+	margin-right: 35%;
+	text-align: center;
+	padding-top: 5px
+}
+
+.personal_information_id_update img:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_address {
+	width: 100%;
+	height: 8%;
+	margin-top: 20px;
+}
+
+.personal_information_address_city {
+	height: 100%;
+	width: 50%;
+	float: left;
+	border-right: 3px solid #aaaaaa;
+	text-align: right;
+	padding-right: 5px;
+	font-size: 12em;
+	color: #999999;
+	font-family: MicrosoftYa
+}
+
+.personal_information_address_job {
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 12em;
+	color: #999999;
+	font-family: MicrosoftYa
+}
+
+.personal_information_tel {
+	width: 100%;
+	height: 8%;
+	margin-top: 15px;
+}
+
+.personal_information_tel_picture {
+	height: 100%;
+	width: 22%;
+	float: left;
+	margin-left: 38%
+}
+
+.personal_information_tel_num {
+	font-size: 12em;
+	font-family: MicrosoftYa;
+	color: #999999;
+	margin-top: 3px
+}
+
+.personal_information_tel_a {
+	float: right;
+	height: 100%;
+	width: 7%;
+	margin-right: 33%;
+	padding-top: 5px;
+}
+
+.personal_information_tel_a a {
+	font-size: 7em;
+	font-family: MicrosoftYa;
+	color: #46dcff;
+}
+
+.personal_information_tel_a a:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_email_a a:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_email {
+	width: 100%;
+	height: 8%;
+	margin-top: 15px;
+}
+
+.personal_information_email_picture {
+	width: 70%;
+	height: 70%;
+	margin-left: 30%;
+	margin-top: 20%
+}
+
+.personal_information_email_num {
+	font-size: 12em;
+	font-family: MicrosoftYa;
+	color: #999999;
+	overflow: hidden;
+	display: block;
+	width: 30%;
+	float: left;
+}
+
+.personal_information_email_a {
+	float: right;
+	height: 100%;
+	max-width: 7%;
+	margin-right: 20%;
+	padding-top: 5px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+
+.personal_information_email_a a {
+	font-size: 7em;
+	font-family: MicrosoftYa;
+	color: #46dcff;
+}
+
+.account_information_za {
+	width: 100%;
+	height: 10%;
+	font-size: 14em;
+	color: #aaaaaa;
+	font-family: MicrosoftYa
+}
+
+.account_information_div {
+	height: 40%;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.account_information_ye {
+	width: 100%;
+	height: 10%;
+	font-size: 11em;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+}
+
+.account_information_money {
+	width: 100%;
+	height: 35%;
+	color: #46dcff;
+	font-size: 30em;
+	text-align: center;
+	margin-top: 20px
+}
+
+.account_information_btn {
+	width: 100%;
+	height: 20%;
+	margin-top: 33px;
+	text-align: center;
+}
+
+.account_information_a {
+	display: inline-table;
+	font-size: 8em;
+	height: 80%;
+	width: 30%;
+	text-align: center;
+	border: 1px solid #46dcff;
+	color: #46dcff;
+	line-height: 200%;
+	background-color: transparent;
+	border-radius: 10px;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+	text-decoration: none;
+}
+
+.account_information_a:HOVER {
+	cursor: pointer;
+	background-color: #46dcff;
+	color: white;
+}
+
+.account_information_update {
+	width: 50%;
+	height: 40%;
+	margin: 30px auto 0;
+}
+
+.account_information_update_word1 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-size: 12em;
+	color: #aaaaaa;
+	line-height: 250%
+}
+
+.account_information_update_word2 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	font-size: 12em;
+	color: #46dcff;
+	line-height: 250%;
+	text-align: center;
+}
+
+.account_information_update_word2 a {
+	color: #46dcff;
+}
+
+.account_information_update_word2 a:HOVER {
+	cursor: pointer;
+}
+
+.czjl {
+	text-align: center;
+	font-size: 20px;
+	font-family: MicrosoftYa;
+	color: #45dcff;
+}
+
+.czjldiv {
+	height: 100%;
+	width: 25%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 15px;
+}
+
+.jldiv {
+	height: 100%;
+	width: 25%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 15px;
+}
+
+.pagination li a:HOVER {
+	cursor: pointer;
+}
+
+.pagination>li>a {
+	border: none;
+}
+
+.xrjgdiv {
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 15px;
+}
+
+.jgdddiv {
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 14px;
+	width: 15%
+}
+
+.jgsjdiv {
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 14px;
+	width: 25%
+}
+
+.jgtkdiv {
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size: 14px;
+	width: 10%
+}
+
+.modal-dialog {
+	margin: 200px auto !important;
+}
+
+input[type=date] {
+	color: #46dcff;
+	border-radius:5px;
+	text-align: center;
+	border: 1px solid #aaaaaa;
+	width: 150px;
+}

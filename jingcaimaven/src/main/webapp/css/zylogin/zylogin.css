@@ -1,0 +1,183 @@
+body {
+	Font-size: 12% !important;
+}
+
+.all {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position:relative;
+}
+
+.page {
+	width: 480px;
+	height: 550px;
+	position:relative;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	background-color: #ffffff;
+	top: 20%;
+	margin: 0 auto;
+}
+
+.colse {
+	width: 100%;
+	height: 15px;
+	padding-top: 5px;
+}
+
+.logo {
+	width: 100%;
+	height: 21%;
+	padding-left: 40%
+}
+
+.choose {
+	width: 100%;
+	height: 15px;
+	line-height: 15px;
+	font-size: 16em;
+	margin-top: 26px;
+	margin-bottom: 5px;
+}
+
+.c1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.box {
+	width: 100%;
+	height: 11%;
+	z-index: 99;
+	position: relative;
+	padding-left: 48px;
+	margin-top: -13%;
+}
+
+.in {
+	width: 100%;
+	height: 11%;
+	z-index: 99;
+	position: relative;
+	padding-left: 48px;
+	margin-top: -13%;
+}
+
+.bg {
+	width: 100%;
+	height: 13%;
+	margin-top: 20px;
+	position: relative;
+	z-index: 1
+}
+
+.user {
+	height: 100%;
+	text-align: center;
+	width: 10%;
+	line-height: 100%;
+	padding-top: 3%;
+	float: left;
+}
+
+.in1 {
+	text-align: center;
+	margin-left: 35px;
+	height: 100%;
+	margin-right: 35px;
+}
+
+.wj {
+	font-size: 16em;
+	color: #46dcff
+}
+
+.wj:HOVER {
+	cursor: pointer;
+}
+
+.word {
+	height: 80%;
+	width: 90%;
+	font-size: 16em;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	border: none;
+	text-align: center;
+}
+
+.b1 {
+	height: 100%;
+	width: 100%;
+	font-size: 16em !important;
+	line-height: 280%;
+}
+
+.dis {
+	display: none;
+}
+
+.FengCheck {
+	border-radius: 3em;
+	border-color: #aaaaaa;
+	vertical-align: middle;
+	height: 13px;
+}
+
+label {
+	font-size: 12px;
+	cursor: pointer;
+}
+
+label i {
+	font-size: 12em;
+	font-style: normal;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	line-height: 100%;
+	color: #fff;
+	vertical-align: middle;
+	margin: -2px 2px 1px 0px;
+	border: #2489c5 1px solid;
+}
+
+.checkbox {
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-bottom: 3px;
+}
+
+.cb {
+	width: 100%;
+	padding-left: 35px;
+	margin-top: 17px;
+	height: 4%;
+}
+
+.ty {
+	font-size: 12em;
+	color: #aaaaaa;
+	vertical-align: middle;
+	height: 100%;
+	line-height: 170%;
+	margin-left: 20px;
+}
+
+.c1 span:HOVER {
+	cursor: pointer;
+}
+
+.ty a:HOVER {
+	cursor: pointer;
+}
+
+.ts {
+	width: 100%;
+	height: 20%
+}

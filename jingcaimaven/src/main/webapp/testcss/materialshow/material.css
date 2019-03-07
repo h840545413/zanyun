@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+#img_div
+{
+	text-align:center;
+	width:354px;
+	
+	margin: auto;
+}
+.left
+{
+	font-size:14px;
+	color:#718495;
+	margin-left:30px;
+	width: 80px;
+	float: left;
+}
+.right
+{
+	font-size:14px;
+	width: 200px;
+	/* float: left; */
+}
+img
+{border: 2px solid white;}
+img:HOVER {
+	border: 2px solid  #708492;
+}

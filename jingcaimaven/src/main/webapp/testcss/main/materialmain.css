@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+	font_family: "微软雅黑";
+	font-size: 12px;
+}
+body
+{
+	
+	display: inline-block;
+	width: 100%;
+	
+}
+#head_div {
+	text-align:center;
+	background-color: #708492;
+	height: 30px;
+	font-size: 18px;
+	color: #ffffff;
+	padding-top: 10px;
+
+}
+#top_div {
+	
+	height: 28px;
+	
+	font_size: 12px;
+	color: #4b4b4b;
+	margin-left:20px;
+	margin-top: 10px;
+	
+	
+}
+
+#radio-div {
+	margin-left: 9px;
+	margin-top: 10px;
+	height: 36px;
+}
+
+.leftdivback1 {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	height: 31px;
+	width: 49%;
+	background-color: #708492;
+	float: left;
+	color: white;
+	font-weight: bold;
+}
+
+.rightdivback1 {
+	padding-top: 10px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	height: 29px;
+	width: 48%;
+	font-weight: bold;
+	background-color: #F7F7F7;
+	float: left;
+	border: 1px solid #708492;
+	float: left;
+	border: 1px solid #708492;
+	color: #708492;
+	
+}
+.rightdivback1:HOVER
+{text-decoration: none;}
+
+#nav {
+	float: left;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right:-110px;
+	z-index: 999;
+	display: inline-block;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: 0;
+	z-index: 999;
+	display: inline-block;
+}
+
+
+
+.ul_li {
+	text-align: center;
+	padding: 0px;
+	width: 80px;
+	height: 35px;
+	line-height:35px;
+	display: block;
+	border-radius: 0px;
+	border: 1px solid #708492;
+	border-top: 0;
+	background-color: #F3F3F3;
+	float: left;
+	z-index: 55555;
+}
+.ul_li_1
+{
+	background-color:  #708492;
+	border: 1px solid #708492;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	width: 80px;
+	height: 35px;
+	line-height:35px;
+	display: block;
+	float: left;
+	text-align: center;
+	
+	z-index: 100;
+}
+
+
+.catalog
+{
+	
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.thirdh {
+	background-color: #1E90FF;
+}
+
+
+
+dl {
+	width:100%;
+	float: left;
+
+margin-top:30px;
+	 
+	text-align: center;
+	
+}
+
+.first_dl {
+	border-bottom: 0;
+	font-size: 15px;
+}
+
+.second_dl {
+	margin-top:-30px;
+	border-top: 0;
+}
+
+dd {
+	float: left;
+	background-color: white;
+	margin-left:30px;
+	margin-top: 10px;
+
+}
+.dd_div
+{
+
+height: 30px;line-height: 30px;font-size: 15px;
+width:80px;
+border: 1px solid black; 
+
+}
+#zs {
+	
+	width: 90%;
+
+}
+
+a
+{text-decoration: none;
+color: #333333
+ }
+ a:HOVER
+ {color:gray;text-decoration: underline;}
+ .a_div{width: 110px;float: left;margin-top: 10px;height: 150px;}
+ .div_a{
+ width: 100px;float: left;}
+ img
+ {border: 0;}
+ img:HOVER {
+	
+}
+.zx
+{
+	font-size:14px;
+	width:1400px;
+	height:22px;
+	padding-top:8px;
+	text-align: center;
+	color: #708492;
+	border: 1px solid gray;
+	margin: auto auto;
+	float:left;
+}
+
+.layout {width: 150px; height: 40px;border: 1px solid #1E90FF;text-align: center;line-height: 40px;font-size: 20px;cursor: pointer;text-decoration: none;margin: auto auto;}
+.layout:HOVER{color: white;background-color:#1E90FF; }
+
+.right{margin-left: 160px;width:100%;text-align:center;}
+#show_div
+{
+	width: 100%;
+	
+	margin:auto;
+	float:left;
+}
+#buttom_div{
+width:100%;
+height:50px;
+float: left;}
+.memu_a1{
+	
+	font-size: 16px;
+	width: 180px;
+}

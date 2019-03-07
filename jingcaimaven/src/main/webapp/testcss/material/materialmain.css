@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	text-align: center;
+	margin: auto auto;
+	background-color: #E9E9E9;
+}
+
+img {
+	border: 0;
+}
+
+#head-div {
+	height: 28px;
+	width: 354px;
+	font-size: 18px;
+	color: #4f2800;
+	padding-top: 10px;
+}
+
+#radio-div {
+	margin-left: 9px;
+	margin-top: 10px;
+	height: 36px;
+}
+
+#body-div {
+	margin-top: 12px;
+	margin-left: 2px;
+}
+
+#body-div div {
+	cursor: pointer;
+	float: left;
+	margin-left: 8px;
+}
+
+.head-span {
+	font-size: 20px;
+	color: #4F2800;
+}
+
+.img-div {
+	cursor: pointer;
+	margin-top: 8px;
+	width: 164px;
+	height: 194px;
+	border: 0;
+}
+
+.font-div {
+	cursor: pointer;
+	width: 164px;
+	font-size: 16px;
+	height: 20px;
+	margin-top: -25px;
+	color: white;
+	font-weight: bold;
+}
+
+.leftdivback1 {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 14px;
+	height: 31px;
+	width: 167px;
+	background-color: #4F2800;
+	float: left;
+	color: white;
+}
+
+.leftdivback2 {
+	cursor: pointer;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 14px;
+	height: 29px;
+	width: 167px;
+	background-color: #F7F7F7;
+	float: left;
+	border: 1px solid #4F2800;
+	color: #4F2800;
+}
+
+.rightdivback1 {
+	cursor: pointer;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 14px;
+	height: 29px;
+	width: 167px;
+	background-color: #F7F7F7;
+	float: left;
+	border: 1px solid #4F2800;
+	color: #4F2800;
+}
+
+.rightdivback2 {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 14px;
+	height: 31px;
+	width: 167px;
+	background-color: #4F2800;
+	float: left;
+	color: white;
+}

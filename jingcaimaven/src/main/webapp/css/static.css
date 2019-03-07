@@ -1,0 +1,181 @@
+@CHARSET "UTF-8";
+.modal-content {
+	background-color: white;
+	height: 500px;
+}
+
+.modal-body {
+	width: 400px;
+	background-color: white;
+		height: 500px;
+}
+
+/* .logo {
+	width: 100%;
+	height: 21%;
+	padding-left: 40%;
+	margin-top: 20px;
+} */
+.modaldiv
+{width: 300px;height: 42px;line-height:40px;text-align: left;margin: auto auto;border: 1px solid #DCDCDC;padding-left: 20px;}
+.modaldiv input[type='text']
+{
+	width: 250px;margin-left: 10px;height: 40px;line-height: 40px;border:0;font-size: 14px;
+}
+.modaldiv input[type='password']
+{
+	width: 250px;margin-left: 10px;height: 40px;line-height: 40px;border:0;font-size: 14px;
+	
+}
+.choose {
+	width: 100%;
+	height: 15px;
+	line-height: 15px;
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+.c1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+#logindiv {
+	width: 100%;
+	height: 300px;
+	
+}
+
+.modal-body .bg {
+	width: 314px;
+	height: 54px;
+	margin: auto auto;
+	margin-top: 20px;
+	background-image: url("/zanyunmaven/images/icon/input.png");
+	position: relative;
+	z-index: 1;
+	line-height: 54px;
+}
+
+.modal-body .bg img {
+	width: 18px;
+	height: 20px;
+	margin-left: 10px;
+}
+
+.modal-body .bg .word {
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	color: #aaaaaa;
+
+	border: none;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 40px;
+}
+
+.modal-body .loginbt,.registbtn {
+	width: 300px;
+	height: 40px;
+
+	border: 0;
+	margin: auto auto;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+.modal-body .loginbt:HOVER,.registbtn:HOVER {
+	
+}
+
+#registerdiv {
+	width: 100%;
+	height: 300px;
+}
+
+#registerdiv .bg {
+	margin-top: 15px;
+}
+
+#registerdiv .bg:FIRST-CHILD {
+	margin-top: 20px;
+}
+
+.dis {
+	display: none;
+}
+
+.personal-dropdown {
+	position: absolute;
+	top: 70px;
+	right: 115px;
+	width: 100px;
+	height: 150x;
+	display: none;
+	z-index: 99999999;
+	border: solid 1px #00FFFF;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.personal-dropdown>i {
+	position: absolute;
+	display: block;
+	right: 8px;
+	top: -10px;
+	margin-left: -10px;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 9px;
+	border-top-width: 0;
+	border-bottom-color: #00FFFF;
+}
+
+.personal-dropdown>table {
+	width: 100%;
+}
+
+.personal-dropdown>table tr {
+	border-top: solid 1px #000000;
+}
+
+.personal-dropdown>table tr:first-child {
+	border-top: none;
+}
+
+.personal-dropdown>table tr td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.personal-dropdown>table a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.personal-dropdown>table p {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+	line-height: 32px;
+	width: 100%;
+}
+
+.personal-dropdown>table tr>td>p>a:hover {
+	background-color: #00FFFF;
+	color: #333;
+	font-weight: 700;
+}
+.ts{height: 20px;width: 300px;margin:auto auto;text-align: left;padding-left: 20px;}

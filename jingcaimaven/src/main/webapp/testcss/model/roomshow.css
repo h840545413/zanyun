@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	margin: auto auto;
+	width: 354px;
+}
+
+img {
+	border: 2px solid white;
+}
+
+img:HOVER {
+	border: 2px solid #9a6c35;
+}
+
+table {
+	border: 0;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#head-div {
+	height: 40px;
+	width: 354px;
+	background-color: #4F2800;
+	font-size: 18px;
+	color: #ffffff;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#top-div {
+	text-align: left;
+	height: 28px;
+	width: 344px;
+	font-size: 12px;
+	color: #4b4b4b;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#img-div {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#info-div {
+	width: 344px;
+	padding-bottom: 10px;
+	color: #9a6c35;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+#infoxx-div {
+	margin-left: 10px;
+}
+
+#font-div {
+	text-align: center;
+	font-size: 16px;
+	color: #4b4b4b;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#show_div {
+	height: 450px;
+	width: 344px;
+	padding-bottom: 20px;
+}
+
+#buttom-div {
+	padding-top: 14px;
+	width: 344px;
+	text-align: center;
+}
+
+.td-font1 {
+	width:80px;
+	font-size: 14px;
+	color: #999999;
+	text-align: right;
+	line-height: 26px;
+}
+
+.td-font2 {
+	font-size: 14px;
+	color: #4b4b4b;
+	text-align: left;
+	width: 90px;
+	line-height: 26px;
+}
+
+.a_div {
+	
+	width: 100px;
+	float: left;
+	height: 140px;
+	margin-left:10px;
+	
+}
+
+.div_a {
+	word-wrap:break-word;
+	text-align: left;
+	width:80px;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.number-button1 {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button1.jpg");
+}
+
+.number-button1:HOVER {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button2.jpg");
+}
+
+.number-button3 {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 21px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/button3.jpg");
+	color: white;
+}
+
+.button-left {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/left.jpg");
+}
+.button-left:HOVER {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/leftmove.jpg");
+}
+
+.button-right {
+	cursor:pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/right.jpg");
+}
+.button-right:HOVER{
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+	line-height: 26px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	background-image: url("/sample/images/button/rightmove.jpg");
+}
+#aljj
+{width: 200px;
+word-break:break-all;
+font-size: 14px;
+	color: #4b4b4b;
+	text-align: left;
+	line-height: 26px;
+}
+}
+#buttom-div
+{text-align:center;}

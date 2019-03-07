@@ -1,0 +1,35 @@
+//联系我们
+
+.lxdiv{
+	width: 100%;height:183px;margin-top: 303px;
+}
+.lxpic{
+	height: 100%;width: 8.1%;margin-left:660px;float: left;
+}
+.lxtel{
+	height: 100%;width: 20%;float: left;margin-left: 70px; 
+}
+.lxworddiv{
+	width: 100%;height: 20px;margin-top: 27px;text-align: left;
+}
+.lxword1{
+	color: #666666;font-size: 18em;font-family: MicrosoftYaHei;letter-spacing:1.5px
+}
+.lxword2{
+	width: 100%;height: 20px;margin-top: 21px;text-align: left;
+}
+.lxword3{
+	color: #666666;font-size: 18em;font-family: MicrosoftYaHei;float: left;
+}
+.lxword4{
+	font-size: 14px;float: left;color: #666666;font-family: MicrosoftYaHei;margin-top: 3px;
+}
+.lxword5{
+	width: 100%;height: 20px;margin-top: 21px;text-align: left;
+}
+.lxword6{
+	color: #666666;font-size: 18em;font-family: MicrosoftYaHei;letter-spacing:1.5px
+}
+.lxword7{
+	width: 100%;height:14px;margin-top: 380px;text-align: center;color: rgba(102,102,102,0.75);font-size: 14em;font-family: MicrosoftYaHei;
+}

@@ -1,0 +1,150 @@
+body {
+	min-width: 1635px;
+	width: expression_r(document.body.clientWidth < 1636 ? "1635px" : "auto");
+	min-height: 974px;
+	height: expression_r(document.body.clienthright < 973 ? "974px" : "auto");
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	font-size: 12%;
+}
+
+.school_main {
+	width: 1250px;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.school_main_head {
+	height: 80px;
+	width: 100%;
+	margin-top: 4%
+}
+
+.school_main_head_div {
+	width: 60%;
+	height: 30px;
+	margin: 0 auto;
+	border: 1px solid #aaaaaa;
+	border-radius: 5em;
+}
+
+.school_main_input {
+	height: 26px;
+	width: 90%;
+	border-top-left-radius: 5em;
+	border-bottom-left-radius: 5em;
+	border: none;
+	text-align: center;
+	font-size: 10em;
+	font-family: MicrosoftYa;
+	float: left;
+	background-color: inherit;
+}
+
+.school_main_button {
+	color: #46dcff;
+	font-size: 14em;
+	float: left;
+	margin-top: 3px;
+	margin-left: 4%;
+}
+
+.school_main_pic_div_head_word {
+	font-size: 20px;
+	color: black;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-family: MicrosoftYa;
+	color: black;
+}
+
+.school_main_pic_div_head_word:HOVER {
+	color: #46dcff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.school_zyvdio {
+	width: 100%;
+	height: 22px;
+	color: #aaaaaa;
+	font-size: 18px;
+	margin-bottom: 10px
+}
+
+.school_jishu {
+	width: 100%;
+	height: 65px;
+	color: #6c6c6c;
+	font-size: 18px;
+	font-family: MicrosoftYa;
+	padding-top: 20px;
+}
+
+.school_tittle {
+	height: 100%;
+	width: 550px;
+	float: left;
+	text-align: center;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px
+}
+.school_tittle_word{
+	height: 100%;
+	width: 550px;
+	float: left;
+	text-align: center;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px;
+	
+}
+
+.school_fenlei {
+	margin-left: 100px;
+	width: 70px;
+	text-align: center;
+	height: 100%;
+	float: left;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px
+}
+.school_zuozhe {
+	margin-left:80px;
+	width: 70px;
+	text-align: center;
+	height: 100%;
+	float: left;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px
+}
+.school_huifu {
+	margin-left:50px;
+	width: 70px;
+	text-align: center;
+	height: 100%;
+	float: left;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px
+}
+.school_shijian {
+	margin-left:50px;
+	width: 200px;
+	text-align: center;
+	height: 100%;
+	float: left;
+	color: #777777;
+	font-family: MicrosoftYa;
+	font-size: 16px;
+}

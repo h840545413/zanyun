@@ -1,0 +1,32 @@
+
+
+.page{height:2000px;}
+
+.details_btn1 {
+	background-color: #46dcff;
+	height: 100%;
+	width: 180px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.details_word {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-size: 60px;
+	color: #333333;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.details_picdiv {
+	margin-top: 175px;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	margin-top: 405px;
+}

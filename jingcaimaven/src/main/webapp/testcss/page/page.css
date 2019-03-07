@@ -1,0 +1,199 @@
+body{
+Font-size:10%
+}
+.page{
+	height: 750px;
+	width: 100%;
+	background-color:#696969;
+}
+
+.searchBar{
+	height: 80px;
+	width: 100%;
+
+}
+.searchbox{
+	height: 35px;
+	width: 100%;	
+	padding-right: 10px;
+}
+.ig{
+	width: 20%;padding-top: 10px;
+}
+.sbox{
+	height:25px;
+	background-color: black;
+	border-color: #444444;
+	font-size: 12px;
+	font-family: MicrosoftYaHei;
+	margin-left: 10px;
+	
+}
+.sbtn{
+	height: 25px;background-color: #444444;border: none;
+}
+.filterbox{
+	height:45px;
+	width: 100%;
+	z-index:6;
+	padding-bottom:7px;
+
+}
+.fbox1{
+	width: 40%;
+	height: 30px;
+	background-color:  FFFFFF;
+	border-color:#444444; 
+	color: #444444;
+	float: left;
+	font-size: 10px;
+
+}
+.fbox{
+	width: 25%;
+	height: 30px;
+	background-color:  FFFFFF;
+	border-color:#444444; 
+	color: #444444;
+	float: left;
+	font-size: 10px;
+
+}
+
+input[type="number"]{-moz-appearance:textfield;}
+.button1{
+	height:53px;
+	width: 100%;
+	padding-top: 13px;
+}
+.pice{
+	height:35px;
+	width: 20%	;
+	float: left;
+	z-index: 5;
+	
+}
+.pice1{
+	margin-top:30px;
+	height:60px;
+	width: 150%;
+	float: left;
+	position:absolute;
+	background-color: #000000;
+z-index: 1;
+}
+.btn1{
+	margin-top: 20px;
+	height:30px;
+	width: 5%;
+	background-color: FFFFFF;
+	border-color:#444444; 
+	z-index:999;
+}
+.display{
+	visibility: hidden;
+	
+}
+.scroll{
+	height:667px;
+	width: 100%;
+	overflow:auto;
+	position: relative;
+}
+.picture{
+	height:676px;
+	width: 100%;
+background-color:#444444; 
+}
+.picture1{
+	height:140px;
+	width: 110px;
+	margin-right:5px;
+	margin-top:10px;
+	float: left;
+	background-color:#696969;
+	text-align: center;
+}
+.picture2{
+	height:110px;
+	width: 110px;
+}
+.xiala{
+	height:35px;
+	width: 30%;
+	float: left;
+	z-index:1;
+}
+.word{
+	border:none;
+	background-color:#696969;
+	text-align: center;
+	font-family: MicrosoftYaHei; 
+	font-size: 14em;
+	color: #999999;
+	margin-top: 5px;
+}
+p:hover{
+	color: #00ffff;
+	cursor:pointer;
+}
+
+.toggle{
+	height:34%;
+	width: 100%;
+	margin-top: 30px;
+}
+.toggle1{
+	width: 25%;
+	margin-left:10px;margin-right: 11px;
+	text-align: center;
+	color:  #FFFF00;
+	float: left;
+}
+.toggle2{
+	width: 25%;
+	text-align: center;
+	color: #FFFF00;
+	margin-right: 11px;
+	float: left;
+}
+.toggle3{
+	width: 25%;
+	text-align: center;
+	color:  #FFFF00;
+	margin-right: 11px;
+	float: left;
+}
+.label1{
+	margin-top:40px;
+	height:56px;
+	width: 100%;
+	float: left;
+	z-index: 1;
+	position:absolute;
+	background-color:black;
+	background: rgba(0,0,0, 0.7);
+	border:1px solid FFFFFF;
+}
+#myModal{
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+min-width:80%;/*这个比例可以自己按需调节*/
+height: 50%;
+overflow:hidden;
+}
+.rightbox{
+	margin-left:20px;
+	width: 280px;height:30px;
+}
+li{
+	list-style-type:none;
+	line-height: 25px;
+	color: black;
+	font-size: 15px;
+}
+label{
+	color: #bbbbbb;
+	font-size: 15px;
+}

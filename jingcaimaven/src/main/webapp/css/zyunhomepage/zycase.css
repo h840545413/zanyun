@@ -1,0 +1,154 @@
+body {
+	
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.case_main_div {
+	width: 100%;
+	height:900px;
+}
+
+.case_main {
+	width: 65%;
+	margin: 0 auto;
+	
+}
+
+.case_main_head {
+	height: 100px;
+	width: 100%;
+	margin-top: 4%
+}
+
+.case_main_head_div {
+	width: 60%;
+	height: 30%;
+	margin: 0 auto;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+}
+
+.case_main_input {
+	height: 26px;
+	width: 90%;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	text-align: center;
+	font-size:15px;
+	font-family: MicrosoftYa;
+	float: left;
+	background-color: inherit;
+}
+
+.case_main_button {
+	color: #46dcff;
+	font-size: 14px;
+	float: left;
+	margin-top:3px;
+	margin-left:4%;
+}
+
+.case_main_head_div span:HOVER {
+	cursor: pointer;
+}
+
+.case_main_pic_div {
+	width:260px;
+	height: 170px;
+	float: left;
+	margin-left:50px;
+	margin-bottom:65px;
+}
+.case_main_pic_div:HOVER
+{
+	
+	
+}
+.case_main_pic_div_head {
+	width: 260px;
+	height: 55px;;
+	font-size: 18px;
+	margin-bottom:10px;
+}
+.case_main_pic_div_head a
+{
+	color: black;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-family: MicrosoftYa;
+	
+}
+/* .case_main_pic_div_head_word {
+	color: black;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-family: MicrosoftYa;
+} */
+
+.case_main_pic_div_head a:HOVER
+{
+	color: #46dcff;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+
+
+.case_main_pic_div_pic {
+	width: 260px;
+	height:170px;;
+	margin-bottom: 3%
+}
+
+.case_main_pic_div_pic img {
+	width: 100%;
+	height: 100%;
+}
+
+.case_main_pic_div_button_word {
+	width: 260px;
+	height: 50px;
+	font-size: 8px;
+	line-height: 25px;
+	color: #aaaaaa;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color: #aaaaaa;
+}
+
+.pagination li a:HOVER {
+	cursor: pointer;
+}
+
+.pagination>li>a {
+	border: none;
+}
+
+.pagination>li>a.active {
+	color: #cccccc;
+	font-weight: bold;
+}
+input[type="text"]{border: 0;}
+.videos{width:1200px; text-align: center;}
+.videos li{float: left;margin-left: 20px;margin-right: 20px;width: 250px;height: 188px;list-style-type: none;margin-top: 30px;}
+.videos li img{width: 250px;height: 188px;}

@@ -1,0 +1,533 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family:"MicrosoftYa"; }
+body {
+min-width: 1200px;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	font-size: 10%;
+}
+.personal
+{
+	width: 100%;
+	height: 240px;
+}
+.account,.record {
+	width: 100%;
+	height: 420px;
+}
+
+.personal_information,.account_information,.record_information {
+	
+	width: 60%;
+	min-width:1000px;
+	height: 100%;
+	margin: auto;
+	border-bottom: 1px solid #aaaaaa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.personal_information_head {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.personal_information_id {
+	width: 100%;
+	height: 30px;
+	margin-top: 25px;
+	font-size: 20px;
+	
+}
+
+.personal_information_id_div {
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-left: 40%;
+	float: left;
+	overflow: hidden
+}
+
+.personal_information_id_update {
+	height: 100%;
+	width: 5%;
+	float: right;
+	margin-right: 30%;
+	text-align: center;
+	padding-top: 5px
+}
+
+.personal_information_id_update img:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_address {
+	width: 100%;
+	height: 8%;
+	margin-top: 20px;
+}
+
+.personal_information_address_city {
+	height: 100%;
+	width: 50%;
+	float: left;
+	border-right: 3px solid #aaaaaa;
+	text-align: right;
+	padding-right: 5px;
+	font-size: 12em;
+	color: #999999;
+	font-family: MicrosoftYa
+}
+
+.personal_information_address_job {
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 12em;
+	color: #999999;
+	font-family: MicrosoftYa
+}
+
+.personal_information_tel {
+	width: 100%;
+	height: 8%;
+	margin-top: 15px;
+}
+
+.personal_information_tel_picture {
+	height: 100%;
+	width: 22%;
+	float: left;
+	margin-left: 38%
+}
+
+.personal_information_tel_num {
+	font-size: 12em;
+	font-family: MicrosoftYa;
+	color: #999999;
+	margin-top: 3px
+}
+
+.personal_information_tel_a {
+	float: right;
+	height: 100%;
+	width: 7%;
+	margin-right: 33%;
+	padding-top: 5px;
+}
+
+.personal_information_tel_a a {
+	font-size: 7em;
+	font-family: MicrosoftYa;
+	color: #46dcff;
+}
+
+.personal_information_tel_a a:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_email_a a:HOVER {
+	cursor: pointer;
+}
+
+.personal_information_email {
+	width: 100%;
+	height: 8%;
+	margin-top: 15px;
+}
+
+.personal_information_email_picture {
+	width: 70%;
+	height: 70%;
+	margin-left: 30%;
+	margin-top: 20%
+}
+
+.personal_information_email_num {
+	font-size: 12em;
+	font-family: MicrosoftYa;
+	color: #999999;
+	overflow: hidden;
+	display: block;
+	width: 30%;
+	float: left;
+}
+
+.personal_information_email_a {
+	float: right;
+	height: 100%;
+	max-width: 7%;
+	margin-right: 20%;
+	padding-top: 5px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+
+.personal_information_email_a a {
+	font-size: 7em;
+	font-family: MicrosoftYa;
+	color: #46dcff;
+}
+
+.account_information_za {
+	width: 100%;
+	height: 10%;
+	font-size: 14em;
+	color: #aaaaaa;
+	font-family: MicrosoftYa
+}
+
+.account_information_div {
+	height: 40%;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.account_information_ye {
+	width: 100%;
+	height: 10%;
+	font-size: 11em;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+}
+
+.account_information_money {
+	width: 100%;
+	height: 35%;
+	color: #46dcff;
+	font-size: 30em;
+	text-align: center;
+	margin-top: 20px
+}
+
+.account_information_btn {
+	width: 100%;
+	height: 20%;
+	margin-top: 33px;
+	text-align: center;
+}
+
+/* .account_information_a {
+	display: inline-table;
+	font-size: 8em;
+	height: 80%;
+	width: 30%;
+	text-align: center;
+	border: 1px solid #46dcff;
+	color: #46dcff;
+	line-height: 200%;
+	background-color: transparent;
+	border-radius: 10px;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+	text-decoration: none;
+}
+
+.account_information_a:HOVER {
+	cursor: pointer;
+	background-color: #46dcff;
+	color: white;
+} */
+
+.account_information_update {
+	width: 50%;
+	height: 40%;
+	margin: 30px auto 0;
+}
+
+.account_information_update_word1 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-size: 12em;
+	color: #aaaaaa;
+	line-height: 250%
+}
+
+.account_information_update_word2 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	font-size: 12em;
+	color: #46dcff;
+	line-height: 250%;
+	text-align: center;
+}
+
+.account_information_update_word2 a {
+	color: #46dcff;
+}
+
+.account_information_update_word2 a:HOVER {
+	cursor: pointer;
+}
+
+.czjl {
+	text-align: center;
+	font-size: 20px;
+	font-family: MicrosoftYa;
+	color: #45dcff;
+}
+
+
+
+.pagination li a:HOVER {
+	cursor: pointer;
+}
+
+.pagination>li>a {
+	border: none;
+}
+
+
+li{list-style-type: none;}
+table{width: 80%;margin: auto auto;}
+td{
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	font-size:15px;
+	height: 40px;
+	line-height: 40px;text-align: center;
+}
+a{text-decoration: none;}
+
+.modal-content {
+	background-color: white;
+	
+}
+
+.modal-body {
+	
+	background-color: white;
+}
+
+.logo {
+	width: 100%;
+	height: 21%;
+	padding-left: 40%;
+	margin-top: 20px;
+}
+
+.choose {
+	width: 100%;
+	height: 15px;
+	line-height: 15px;
+	font-size: 20px;
+	margin-top: 26px;
+	margin-bottom: 5px;
+}
+
+.c1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+#logindiv {
+	width: 100%;
+	height: 300px;
+}
+
+.modal-body .bg {
+	width: 314px;
+	height: 54px;
+	margin: auto auto;
+	margin-top: 20px;
+	background-image: url("/zanyunmaven/images/icon/input.png");
+	position: relative;
+	z-index: 1;
+	line-height: 54px;
+}
+
+.modal-body .bg img {
+	width: 18px;
+	height: 20px;
+	margin-left:10px;
+}
+
+.modal-body .bg .word {
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	color: #aaaaaa;
+	font-family: MicrosoftYa;
+	border: none;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 40px;
+}
+
+.modal-body .loginbt {
+	width: 300px;
+	height: 40px;
+	background-image: url("/zanyunmaven/images/zycenter/login1.png");
+	border: 0;
+	margin: auto auto;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+.modal-body.loginbt:HOVER {
+	background-image: url("/zanyunmaven/images/zycenter/login2.png");
+}
+
+#registerdiv {
+	width: 100%;
+	height: 300px;
+}
+
+#registerdiv .bg {
+	margin-top: 15px;
+}
+
+#registerdiv .bg:FIRST-CHILD {
+	margin-top: 20px;
+}
+
+.dis {
+	display: none;
+}
+
+.page_details {
+	width: 200px;
+	height: 30px;
+	margin: auto auto;
+	text-align: center;
+}
+
+.page_render {
+	width: 200px;
+	height: 30px;
+	margin: auto auto;
+	text-align: center;
+}
+
+.page_render li {
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-size: 15px;
+}
+
+.page_details li {
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-size: 15px;
+}
+
+.page_render li a {
+	width: 20px;
+	float: left;
+}
+
+.page_details,.page_render li a.active {
+	color: black;
+}
+
+.personal-dropdown {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	width: 100px;
+	height: 150x;
+	display: none;
+	z-index: 99999999;
+	border: solid 1px #00FFFF;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.personal-dropdown>i {
+	position: absolute;
+	display: block;
+	right: 8px;
+	top: -10px;
+	margin-left: -10px;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 9px;
+	border-top-width: 0;
+	border-bottom-color: #00FFFF;
+}
+
+.personal-dropdown>table {
+	width: 100%;
+}
+
+.personal-dropdown>table tr {
+	border-top: solid 1px #000000;
+}
+
+.personal-dropdown>table tr:first-child {
+	border-top: none;
+}
+
+.personal-dropdown>table tr td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.personal-dropdown>table a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.personal-dropdown>table p {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+	line-height: 32px;
+	width: 100%;
+}
+
+.personal-dropdown>table tr>td>p>a:hover {
+	background-color: #00FFFF;
+	color: #333;
+	font-weight: 700;
+}
+
+#email {
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+}
+
+#emailyzm {
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+}
+
+.ts {
+	margin-left: 50px;
+}
